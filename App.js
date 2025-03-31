@@ -37,19 +37,19 @@ const estilos = StyleSheet.create({
 const SwipeScreen1 = () => (
   <View style={estilos.container}>
     <Text style={estilos.texto}>Avião a380</Text>
-    <Image source={require('./imagens/a380.png')} style={estilos.imagem} />
+    <Image source={require('./imagens/a380.jpeg')} style={estilos.imagem} />
           </View>
 );
 const SwipeScreen2 = () => (
   <View style={estilos.container}>
     <Text style={estilos.texto}>A320</Text>
-    <Image source={require('./imagens/a320.png')} style={estilos.imagem} />
+    <Image source={require('./imagens/a320.jpeg')} style={estilos.imagem} />
   </View>
 );
 const SwipeScreen3 = () => (
   <View style={estilos.container}>
     <Text style={estilos.texto}>E190</Text>
-    <Image source={require('./imagens/E190.png')} style={estilos.imagem} />
+    <Image source={require('./imagens/E190.jpeg')} style={estilos.imagem} />
   </View>
 );
 
